@@ -1,132 +1,150 @@
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Information is searchable or sortable" output/canvas_1.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Returned results are usefully formatted" output/canvas_2.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"There are multiple ways available to find things" output/canvas_3.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The default search is intuitive to configure (no Boolean operators)" output/canvas_4.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The search results page shows the user what was searched for and it is easy to edit and resubmit the search" output/canvas_5.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The search results page makes it clear how many results were retrieved, and the number of results per page" output/canvas_6.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"If no results are returned, the system offers ideas or options for improving the query" output/canvas_7.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The search engine handles empty queries gracefully" output/canvas_8.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The search box is long enough to handle common query lengths" output/canvas_9.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"If a more powerful search interface available to help users refine their searches it's preferably named \"revise search\" or \"refine search\", not \"advanced search\"" output/canvas_10.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The scope of the search is made explicit on the search results page and users can restrict the scope (if relevant to the task)" output/canvas_11.png
+ #!/bin/bash 
 
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Text is concise, with no needless instructions or welcome notes" output/canvas_12.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Each content page begins with conclsuions or implications and the text is written with an inverted pyramid style" output/canvas_13.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Content has been specifically created for the web (web pages do not comprise repurposed material from print publications such as brochures)" output/canvas_14.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Content (reading level) is appropriate for demographic" output/canvas_15.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Sentences are written in the active voice" output/canvas_16.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Pages are quick to scan, with ample headings and sub-headings and short paragraphs" output/canvas_17.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Users of the site do not need to remember information from place to place" output/canvas_18.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Information is presented in a simple, natural and logical order" output/canvas_19.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Links and link titles are descriptive and predictive, and there are no \"Click here!\" links" output/canvas_20.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Acronyms and abbreviations are defined when first used" output/canvas_21.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Text links are long enough to be understood, but short enough to minimise wrapping (especially when used as a navigation list)" output/canvas_22.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The words, phrases and concepts used will be familiar to the typical user" output/canvas_23.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Navigational structure is organized according to user needs" output/canvas_24.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"It is clear to the user where they are in the system" output/canvas_25.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Users are not required to remember information from previous pages in order to complete a task" output/canvas_26.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The site is free from irrelevant, unnecessary and distracting information" output/canvas_27.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The name of the task makes sense to your users" output/canvas_28.png
+function createImage {
+    # $1 = id
+    # $2 = Theme (string)
+    # $3 = Colour hex (string)
+    # $4 = Heuristic (string)
+    # Write heuristic
+    convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "$3" -bordercolor "$3" -border 300x300 -fill white caption:"$4" output/canvas_$1.png
+    # Add Theme
+    convert output/canvas_$1.png -font NTA-Light -fill white -gravity south -pointsize 56 -annotate +0+100 "$2" output/canvas_$1.png
+    # open image
+    # open output/canvas_$1.png
+}
 
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Help/support content is available" output/canvas_29.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Contact information is available" output/canvas_30.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The content is up-to-date, authoritative and trustworthy" output/canvas_31.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Each page is clearly branded so that the user knows he is still in the same site" output/canvas_32.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Details of the software's internal workings are not exposed to the user (date formats, error codes etc.)" output/canvas_33.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Typographical errors are avoided" output/canvas_34.png
+createImage 1 "SEARCH & FINDABILITY" "#d53880" "Information is searchable or sortable"
+createImage 2 "SEARCH & FINDABILITY" "#d53880" "Returned results are usefully formatted"
+createImage 3 "SEARCH & FINDABILITY" "#d53880" "There are multiple ways available to find things"
+createImage 4 "SEARCH & FINDABILITY" "#d53880" "The default search is intuitive to configure (no Boolean operators)"
+createImage 5 "SEARCH & FINDABILITY" "#d53880" "The search results page shows the user what was searched for and it is easy to edit and resubmit the search"
+createImage 6 "SEARCH & FINDABILITY" "#d53880" "The search results page makes it clear how many results were retrieved, and the number of results per page"
+createImage 7 "SEARCH & FINDABILITY" "#d53880" "If no results are returned, the system offers ideas or options for improving the query"
+createImage 8 "SEARCH & FINDABILITY" "#d53880" "The search engine handles empty queries gracefully"
+createImage 9 "SEARCH & FINDABILITY" "#d53880" "The search box is long enough to handle common query lengths"
+createImage 10 "SEARCH & FINDABILITY" "#d53880" "If a more powerful search interface available to help users refine their searches it's preferably named \"revise search\" or \"refine search\", not \"advanced search\""
+createImage 11 "SEARCH & FINDABILITY" "#d53880" "The scope of the search is made explicit on the search results page and users can restrict the scope (if relevant to the task)"
 
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Errors are anticipated and eliminated" output/canvas_35.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"When an error does occur, the user can easily recover" output/canvas_36.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Exits are clearly marked (a user can back out of a process if needed)" output/canvas_37.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The user does not need to consult external information to use the site" output/canvas_38.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The site uses a customised 404 page, which includes tips on how to find the missing page and links to \"Home\" and Search" output/canvas_39.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"User confirmation is required before carrying out potentially \"dangerous\" actions (e.g. deleting something)" output/canvas_40.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The site keeps users informed about unavoidable delays in the site’s response time (e.g. when authorising a credit card transaction)" output/canvas_41.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Error messages are written in a non-derisory tone and do not blame the user for the error" output/canvas_42.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Error messages contain clear instructions on what to do next" output/canvas_43.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The site provides immediate feedback on user input or actions" output/canvas_44.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Pages load quickly (5 seconds or less)" output/canvas_45.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The user is warned about large, slow-loading pages (e.g. \"Please wait…\"), and the most important information appears first" output/canvas_46.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"When giving instructions, pages tell users what to do rather than what to avoid doing" output/canvas_47.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Help is clear and direct and simply expressed in plain English, free from jargon and buzzwords" output/canvas_48.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The site provides clear feedback when a task has been completed successfully" output/canvas_49.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The site ensures that work is not lost (either by the user or site error)" output/canvas_50.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The site makes it obvious when and where an error has occurred (e.g. when a form is incomplete, highlighting the missing fields)" output/canvas_51.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The site prompts the user before correcting erroneous input (e.g. Google's \"Did you mean...\")" output/canvas_52.png
 
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Fields in data entry screens contain default values when appropriate and show the structure of the data and the field length" output/canvas_53.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"When a task involves source documents (such as a paper form), the interface is compatible with the characteristics of the source document" output/canvas_54.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Text boxes on forms are the right length for the expected answer" output/canvas_55.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The site automatically enters field formatting data (e.g. currency symbols, commas for 1000s, trailing or leading spaces).  Users do not need to enter characters like £ or %" output/canvas_56.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Field labels on forms clearly explain what entries are desired" output/canvas_57.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"\"Optional\" fields on forms are stated \"required\" fields are implicit" output/canvas_58.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Forms pre-warn the user if external information is needed for completion (e.g. a passport number)" output/canvas_59.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Questions on forms are grouped logically, and each group has a heading" output/canvas_60.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Fields on forms contain hints, examples or model answers to demonstrate the expected input" output/canvas_61.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"When field labels on forms take the form of questions, the questions are stated in clear, simple language" output/canvas_62.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Pull-down menus, radio buttons and check boxes are used in preference to text entry fields on forms (i.e. text entry fields are not overused)" output/canvas_63.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Data formats are clearly indicated for input (e.g. dates) and output (e.g. units of values)" output/canvas_64.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The user can change default values in form fields" output/canvas_65.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Text entry fields indicate the amount and the format of data that needs to be entered" output/canvas_66.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The site makes it easy to correct errors (e.g. when a form is incomplete, positioning the cursor at the location where correction is required)" output/canvas_67.png
+createImage 12 "CLARITY" "#28a197" "Text is concise, with no needless instructions or welcome notes"
+createImage 13 "CLARITY" "#28a197" "Each content page begins with conclsuions or implications and the text is written with an inverted pyramid style"
+createImage 14 "CLARITY" "#28a197" "Content has been specifically created for the web (web pages do not comprise repurposed material from print publications such as brochures)"
+createImage 15 "CLARITY" "#28a197" "Content (reading level) is appropriate for demographic"
+createImage 16 "CLARITY" "#28a197" "Sentences are written in the active voice"
+createImage 17 "CLARITY" "#28a197" "Pages are quick to scan, with ample headings and sub-headings and short paragraphs"
+createImage 18 "CLARITY" "#28a197" "Users of the site do not need to remember information from place to place"
+createImage 19 "CLARITY" "#28a197" "Information is presented in a simple, natural and logical order"
+createImage 20 "CLARITY" "#28a197" "Links and link titles are descriptive and predictive, and there are no \"Click here!\" links"
+createImage 21 "CLARITY" "#28a197" "Acronyms and abbreviations are defined when first used"
+createImage 22 "CLARITY" "#28a197" "Text links are long enough to be understood, but short enough to minimise wrapping (especially when used as a navigation list)"
+createImage 23 "CLARITY" "#28a197" "The words, phrases and concepts used will be familiar to the typical user"
+createImage 24 "CLARITY" "#28a197" "Navigational structure is organized according to user needs"
+createImage 25 "CLARITY" "#28a197" "It is clear to the user where they are in the system"
+createImage 26 "CLARITY" "#28a197" "Users are not required to remember information from previous pages in order to complete a task"
+createImage 27 "CLARITY" "#28a197" "The site is free from irrelevant, unnecessary and distracting information"
+createImage 28 "CLARITY" "#28a197" "The name of the task makes sense to your users"
 
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The layout helps focus attention on what to do next. It is not cluttered, creating a streamlined experience" output/canvas_68.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Maintain affordance: Things that are clickable, like buttons, are obviously pressable" output/canvas_69.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Hypertext links are easy to identify without needing to 'minesweep' (e.g. underlined)" output/canvas_70.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Messages (e.g. error alerts, directions) are displayed in a consistent area of the site" output/canvas_71.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Spacing and fonts are consistent from page to page" output/canvas_72.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"All pages have appropriate titles" output/canvas_73.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"There is a clear visual \"starting point\" to every page" output/canvas_74.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Each page on the site shares a consistent layout" output/canvas_75.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Pages on the site are formatted for printing, or there is a printer-friendly version" output/canvas_76.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The site avoids italicised text and uses underlining only for hypertext links" output/canvas_77.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"There is a good balance between information density and use of white space" output/canvas_78.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The site has a consistent, clearly recognisable look and feel that will engage users" output/canvas_79.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Pages have been designed to an underlying grid, with items and widgets aligned both horizontally and vertically" output/canvas_80.png
 
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Non-text Content:\n Provide text alternatives for non-text content" output/canvas_81.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Audio Description or Media Alternative (Pre-recorded):\n Video with audio has a second alternative" output/canvas_82.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Info and Relationships:\n Logical structure" output/canvas_83.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Meaningful Sequence:\n Present content in a meaningful order" output/canvas_84.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Sensory Characteristics:\n Use more than one sense for instructions" output/canvas_85.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Use of Colour:\n Don’t use presentation that relies solely on colour" output/canvas_86.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Audio Control:\n Don’t play audio automatically" output/canvas_87.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Keyboard:\n Accessible by keyboard only" output/canvas_88.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"No Keyboard Trap:\n Don’t trap keyboard users" output/canvas_89.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Timing Adjustable:\n Time limits have user controls" output/canvas_90.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Pause, Stop, Hide:\n Provide user controls for moving content" output/canvas_91.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Three Flashes or Below:\n No content flashes more than three times per second" output/canvas_92.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Bypass Blocks:\n Provide a ‘Skip to Content’ link" output/canvas_93.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Page Titled:\n Helpful and clear page title" output/canvas_94.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Focus Order:\n Logical order" output/canvas_95.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Link Purpose (In Context):\n Every link’s purpose is clear from its context" output/canvas_126.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Language of Page:\n Page has a language assigned" output/canvas_97.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"On Focus:\n Elements do not change when they receive focus" output/canvas_98.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"On Input:\n Elements do not change when they receive input" output/canvas_99.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Error Identification:\n Clearly identify input errors" output/canvas_100.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Labels or Instructions:\n Label elements and give instructions" output/canvas_101.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Parsing:\n No major code errors" output/canvas_102.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Name, Role, Value:\n Build all elements for accessibility" output/canvas_103.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Captions (Live):\n Live videos have captions" output/canvas_104.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Audio Description (Pre-recorded):\n Users have access to audio description for video content" output/canvas_105.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Contrast (Minimum):\n Contrast ratio between text and background is at least 4.5:1" output/canvas_106.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Resize Text:\n Text can be resized to 200% without loss of content or function" output/canvas_107.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Images of Text:\n Don’t use images of text" output/canvas_108.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Multiple Ways:\n Offer several ways to find pages" output/canvas_109.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Headings and Labels:\n Use clear headings and labels" output/canvas_110.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Focus Visible:\n Keyboard focus is visible and clear" output/canvas_111.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Language of Parts:\n Tell users when the language on a page changes" output/canvas_112.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Consistent Navigation:\n Use menus consistently" output/canvas_113.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Consistent Identification:\n Use icons and buttons consistently" output/canvas_114.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Error Suggestion:\n Suggest fixes when users make errors" output/canvas_115.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Error Prevention (Legal, Financial, Data):\n Reduce the risk of input errors for sensitive data" output/canvas_116.png
 
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The critical path (e.g. purchase, subscription) is clear, with no distractions on route" output/canvas_117.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The number of screens/interactions required per task has been minimised" output/canvas_118.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The site correctly anticipates and prompts for the user’s probable next activity" output/canvas_119.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Users can complete common tasks quickly" output/canvas_120.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Important, frequently needed tasks are close to the 'surface' of the web site" output/canvas_121.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The path for any given task is a reasonable length (2-5 clicks)" output/canvas_122.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Navigation choices are ordered in the most logical or task-oriented manner (with the less important corporate information at the bottom)" output/canvas_123.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"Clicking the back button always takes the user back to the page the user came from" output/canvas_124.png
-convert -size 2580x1500 -font NTAB -gravity center -pointsize 126  -background "#005ea5" -bordercolor "#005ea5" -border 300x300 -fill white caption:"The site structure is simple, with a clear conceptual model and no unnecessary levels" output/canvas_125.png
+createImage 29 "TRUST & CREDIBILITY" "#f47738" "Help/support content is available"
+createImage 30 "TRUST & CREDIBILITY" "#f47738" "Contact information is available"
+createImage 31 "TRUST & CREDIBILITY" "#f47738" "The content is up-to-date, authoritative and trustworthy"
+createImage 32 "TRUST & CREDIBILITY" "#f47738" "Each page is clearly branded so that the user knows he is still in the same site"
+createImage 33 "TRUST & CREDIBILITY" "#f47738" "Details of the software's internal workings are not exposed to the user (date formats, error codes etc.)"
+createImage 34 "TRUST & CREDIBILITY" "#f47738" "Typographical errors are avoided"
+
+createImage 35 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "Errors are anticipated and eliminated"
+createImage 36 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "When an error does occur, the user can easily recover"
+createImage 37 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "Exits are clearly marked (a user can back out of a process if needed)"
+createImage 38 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "The user does not need to consult external information to use the site"
+createImage 39 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "The site uses a customised 404 page, which includes tips on how to find the missing page and links to \"Home\" and Search"
+createImage 40 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "User confirmation is required before carrying out potentially \"dangerous\" actions (e.g. deleting something)"
+createImage 41 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "The site keeps users informed about unavoidable delays in the site’s response time (e.g. when authorising a credit card transaction)"
+createImage 42 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "Error messages are written in a non-derisory tone and do not blame the user for the error"
+createImage 43 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "Error messages contain clear instructions on what to do next"
+createImage 44 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "The site provides immediate feedback on user input or actions"
+createImage 45 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "Pages load quickly (5 seconds or less)"
+createImage 46 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "The user is warned about large, slow-loading pages (e.g. \"Please wait…\"), and the most important information appears first"
+createImage 47 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "When giving instructions, pages tell users what to do rather than what to avoid doing"
+createImage 48 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "Help is clear and direct and simply expressed in plain English, free from jargon and buzzwords"
+createImage 49 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "The site provides clear feedback when a task has been completed successfully"
+createImage 50 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "The site ensures that work is not lost (either by the user or site error)"
+createImage 51 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "The site makes it obvious when and where an error has occurred (e.g. when a form is incomplete, highlighting the missing fields)"
+createImage 52 "HELP, FEEDBACK & ERROR TOLLERANCE" "#005ea5" "The site prompts the user before correcting erroneous input (e.g. Google's \"Did you mean...\")"
+
+createImage 53 "FORMS & DATA ENTRY" "#912b88" "Fields in data entry screens contain default values when appropriate and show the structure of the data and the field length"
+createImage 54 "FORMS & DATA ENTRY" "#912b88" "When a task involves source documents (such as a paper form), the interface is compatible with the characteristics of the source document"
+createImage 55 "FORMS & DATA ENTRY" "#912b88" "Text boxes on forms are the right length for the expected answer"
+createImage 56 "FORMS & DATA ENTRY" "#912b88" "The site automatically enters field formatting data (e.g. currency symbols, commas for 1000s, trailing or leading spaces).  Users do not need to enter characters like £ or %"
+createImage 57 "FORMS & DATA ENTRY" "#912b88" "Field labels on forms clearly explain what entries are desired"
+createImage 58 "FORMS & DATA ENTRY" "#912b88" "\"Optional\" fields on forms are stated \"required\" fields are implicit"
+createImage 59 "FORMS & DATA ENTRY" "#912b88" "Forms pre-warn the user if external information is needed for completion (e.g. a passport number)"
+createImage 60 "FORMS & DATA ENTRY" "#912b88" "Questions on forms are grouped logically, and each group has a heading"
+createImage 61 "FORMS & DATA ENTRY" "#912b88" "Fields on forms contain hints, examples or model answers to demonstrate the expected input"
+createImage 62 "FORMS & DATA ENTRY" "#912b88" "When field labels on forms take the form of questions, the questions are stated in clear, simple language"
+createImage 63 "FORMS & DATA ENTRY" "#912b88" "Pull-down menus, radio buttons and check boxes are used in preference to text entry fields on forms (i.e. text entry fields are not overused)"
+createImage 64 "FORMS & DATA ENTRY" "#912b88" "Data formats are clearly indicated for input (e.g. dates) and output (e.g. units of values)"
+createImage 65 "FORMS & DATA ENTRY" "#912b88" "The user can change default values in form fields"
+createImage 66 "FORMS & DATA ENTRY" "#912b88" "Text entry fields indicate the amount and the format of data that needs to be entered"
+createImage 67 "FORMS & DATA ENTRY" "#912b88" "The site makes it easy to correct errors (e.g. when a form is incomplete, positioning the cursor at the location where correction is required)"
+
+createImage 68 "PERSUASIVE DESIGN" "#df3034" "The layout helps focus attention on what to do next. It is not cluttered, creating a streamlined experience"
+createImage 69 "PERSUASIVE DESIGN" "#df3034" "Maintain affordance: Things that are clickable, like buttons, are obviously pressable"
+createImage 70 "PERSUASIVE DESIGN" "#df3034" "Hypertext links are easy to identify without needing to 'minesweep' (e.g. underlined)"
+createImage 71 "PERSUASIVE DESIGN" "#df3034" "Messages (e.g. error alerts, directions) are displayed in a consistent area of the site"
+createImage 72 "PERSUASIVE DESIGN" "#df3034" "Spacing and fonts are consistent from page to page"
+createImage 73 "PERSUASIVE DESIGN" "#df3034" "All pages have appropriate titles"
+createImage 74 "PERSUASIVE DESIGN" "#df3034" "There is a clear visual \"starting point\" to every page"
+createImage 75 "PERSUASIVE DESIGN" "#df3034" "Each page on the site shares a consistent layout"
+createImage 76 "PERSUASIVE DESIGN" "#df3034" "Pages on the site are formatted for printing, or there is a printer-friendly version"
+createImage 77 "PERSUASIVE DESIGN" "#df3034" "The site avoids italicised text and uses underlining only for hypertext links"
+createImage 78 "PERSUASIVE DESIGN" "#df3034" "There is a good balance between information density and use of white space"
+createImage 79 "PERSUASIVE DESIGN" "#df3034" "The site has a consistent, clearly recognisable look and feel that will engage users"
+createImage 80 "PERSUASIVE DESIGN" "#df3034" "Pages have been designed to an underlying grid, with items and widgets aligned both horizontally and vertically"
+
+createImage 81 "ACCESSIBILITY" "#2e358b" "Non-text Content:\n Provide text alternatives for non-text content"
+createImage 82 "ACCESSIBILITY" "#2e358b" "Audio Description or Media Alternative (Pre-recorded):\n Video with audio has a second alternative"
+createImage 83 "ACCESSIBILITY" "#2e358b" "Info and Relationships:\n Logical structure"
+createImage 84 "ACCESSIBILITY" "#2e358b" "Meaningful Sequence:\n Present content in a meaningful order"
+createImage 85 "ACCESSIBILITY" "#2e358b" "Sensory Characteristics:\n Use more than one sense for instructions"
+createImage 86 "ACCESSIBILITY" "#2e358b" "Use of Colour:\n Don’t use presentation that relies solely on colour"
+createImage 87 "ACCESSIBILITY" "#2e358b" "Audio Control:\n Don’t play audio automatically"
+createImage 88 "ACCESSIBILITY" "#2e358b" "Keyboard:\n Accessible by keyboard only"
+createImage 89 "ACCESSIBILITY" "#2e358b" "No Keyboard Trap:\n Don’t trap keyboard users"
+createImage 90 "ACCESSIBILITY" "#2e358b" "Timing Adjustable:\n Time limits have user controls"
+createImage 91 "ACCESSIBILITY" "#2e358b" "Pause, Stop, Hide:\n Provide user controls for moving content"
+createImage 92 "ACCESSIBILITY" "#2e358b" "Three Flashes or Below:\n No content flashes more than three times per second"
+createImage 93 "ACCESSIBILITY" "#2e358b" "Bypass Blocks:\n Provide a ‘Skip to Content’ link"
+createImage 94 "ACCESSIBILITY" "#2e358b" "Page Titled:\n Helpful and clear page title"
+createImage 95 "ACCESSIBILITY" "#2e358b" "Focus Order:\n Logical order"
+createImage 96 "ACCESSIBILITY" "#2e358b" "Link Purpose (In Context):\n Every link’s purpose is clear from its context"
+createImage 97 "ACCESSIBILITY" "#2e358b" "Language of Page:\n Page has a language assigned"
+createImage 98 "ACCESSIBILITY" "#2e358b" "On Focus:\n Elements do not change when they receive focus"
+createImage 99 "ACCESSIBILITY" "#2e358b" "On Input:\n Elements do not change when they receive input"
+createImage 100 "ACCESSIBILITY" "#2e358b" "Error Identification:\n Clearly identify input errors"
+createImage 101 "ACCESSIBILITY" "#2e358b" "Labels or Instructions:\n Label elements and give instructions"
+createImage 102 "ACCESSIBILITY" "#2e358b" "Parsing:\n No major code errors"
+createImage 103 "ACCESSIBILITY" "#2e358b" "Name, Role, Value:\n Build all elements for accessibility"
+createImage 104 "ACCESSIBILITY" "#2e358b" "Captions (Live):\n Live videos have captions"
+createImage 105 "ACCESSIBILITY" "#2e358b" "Audio Description (Pre-recorded):\n Users have access to audio description for video content"
+createImage 106 "ACCESSIBILITY" "#2e358b" "Contrast (Minimum):\n Contrast ratio between text and background is at least 4.5:1"
+createImage 107 "ACCESSIBILITY" "#2e358b" "Resize Text:\n Text can be resized to 200% without loss of content or function"
+createImage 108 "ACCESSIBILITY" "#2e358b" "Images of Text:\n Don’t use images of text"
+createImage 109 "ACCESSIBILITY" "#2e358b" "Multiple Ways:\n Offer several ways to find pages"
+createImage 110 "ACCESSIBILITY" "#2e358b" "Headings and Labels:\n Use clear headings and labels"
+createImage 111 "ACCESSIBILITY" "#2e358b" "Focus Visible:\n Keyboard focus is visible and clear"
+createImage 112 "ACCESSIBILITY" "#2e358b" "Language of Parts:\n Tell users when the language on a page changes"
+createImage 113 "ACCESSIBILITY" "#2e358b" "Consistent Navigation:\n Use menus consistently"
+createImage 114 "ACCESSIBILITY" "#2e358b" "Consistent Identification:\n Use icons and buttons consistently"
+createImage 115 "ACCESSIBILITY" "#2e358b" "Error Suggestion:\n Suggest fixes when users make errors"
+createImage 116 "ACCESSIBILITY" "#2e358b" "Error Prevention (Legal, Financial, Data):\n Reduce the risk of input errors for sensitive data"
+
+createImage 117 "TASK FOCUS" "#006435" "The critical path (e.g. purchase, subscription) is clear, with no distractions on route"
+createImage 118 "TASK FOCUS" "#006435" "The number of screens/interactions required per task has been minimised"
+createImage 119 "TASK FOCUS" "#006435" "The site correctly anticipates and prompts for the user’s probable next activity"
+createImage 120 "TASK FOCUS" "#006435" "Users can complete common tasks quickly"
+createImage 121 "TASK FOCUS" "#006435" "Important, frequently needed tasks are close to the 'surface' of the web site"
+createImage 122 "TASK FOCUS" "#006435" "The path for any given task is a reasonable length (2-5 clicks)"
+createImage 123 "TASK FOCUS" "#006435" "Navigation choices are ordered in the most logical or task-oriented manner (with the less important corporate information at the bottom)"
+createImage 124 "TASK FOCUS" "#006435" "Clicking the back button always takes the user back to the page the user came from"
+createImage 125 "TASK FOCUS" "#006435" "The site structure is simple, with a clear conceptual model and no unnecessary levels"
